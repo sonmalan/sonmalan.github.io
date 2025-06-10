@@ -506,7 +506,7 @@ header .mobile_nav_btn {
   }
 }
 
-/* .quick_intro img {
+.quick_intro img {
     width: 15rem;
     margin-right: 2rem;
     border-radius: 50%
@@ -530,7 +530,7 @@ header .mobile_nav_btn {
     .quick_intro img {
         width: 10rem
     }
-} */
+}
 
 .quick_intro_text_group h1 {
     font-size: 3.8rem;
