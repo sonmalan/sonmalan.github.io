@@ -472,47 +472,12 @@ header .mobile_nav_btn {
 }
 
 .quick_intro img {
-  width: 15rem;
-  height: 15rem; /* Add this line */
-  margin-right: 2rem;
-  border-radius: 50%;
-  object-fit: cover; /* Ensures the image scales without distortion */
-}
-
-@media (max-width: 1024px) {
-  .quick_intro img {
-    width: 12rem;
-    height: 12rem; /* Add this */
-    margin-right: 1.2rem;
-    object-fit: cover;
-  }
-}
-
-@media (max-width: 768px) {
-  .quick_intro img {
-    width: 12rem;     /* Add this if missing */
-    height: 12rem;    /* Add this */
-    margin: 0 auto;
-    margin-bottom: 1rem;
-    object-fit: cover;
-  }
-}
-
-@media (max-width: 480px) {
-  .quick_intro img {
-    width: 10rem;
-    height: 10rem; /* Add this */
-    object-fit: cover;
-  }
-}
-
-.quick_intro img {
     width: 15rem;
     margin-right: 2rem;
     border-radius: 50%
-} */
+} 
 
-/* @media (max-width:1024px) {
+@media (max-width:1024px) {
     .quick_intro img {
         width: 12rem;
         margin-right: 1.2rem
@@ -669,8 +634,8 @@ header .mobile_nav_btn {
 }
 
 .landing_quick_links a:hover {
-    /* background: #fdfdfd;
-    color: #3374f3 */
+    background: #fdfdfd;
+    color: #3374f3
     background: #3374f3;    
     color: #fdfdfd
 }
